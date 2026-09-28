@@ -1,0 +1,7 @@
+[
+  {"sku": "APRL-001", "name": "Linen Summer Shirt", "category": "apparel", "complements": ["accessories"]},
+  {"sku": "APRL-002", "name": "Cotton Chino Pants", "category": "apparel", "complements": ["footwear"]},
+  {"sku": "FOOT-010", "name": "Canvas Sneakers", "category": "footwear", "complements": ["apparel"]},
+  {"sku": "ACCS-020", "name": "Woven Leather Belt", "category": "accessories", "complements": ["apparel"]},
+  {"sku": "HOME-030", "name": "Aroma Diffuser", "category": "home", "complements": ["home"]}
+]

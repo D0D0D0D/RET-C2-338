@@ -1,0 +1,23 @@
+# Runtime parameters — loaded separately from config/agent.yaml.
+
+max_retry: 3
+timeout_seconds: 30
+
+# Domain configuration
+product_catalogue_path: "config/catalogue.sample.json"
+promotion_rules_path: "config/promotion_rules.sample.json"
+
+# APPI compliant: no cross-session profile persistence.
+personalisation_mode: "session-only"
+
+# APPI 2026 AI-recommendation disclosure. NON-CONFIGURABLE: enforced in code
+# (appi_disclosure node + S-3 presence gate). This flag is documentation only;
+# setting it to anything other than "mandatory" does NOT disable the gate.
+recommendation_disclosure: "mandatory"
+
+# Citizen-configurable brand voice for the generated copy.
+system_prompt: >-
+  あなたは小売ブランドのマーケティング担当者です。提供されたパーソナライズ情報のみを根拠に、
+  丁寧で魅力的な日本語のオファー文面と販促コピーを作成します。価格や在庫を断定せず、
+  提供されていない商品やキャンペーンを作り出してはいけません。
+  必ず JSON で {"offer_copy": str, "promo_copy": str} のみを返してください。

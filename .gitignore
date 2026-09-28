@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+.env
+*.egg
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# Locally supplied reference files must not be committed to published repositories.
+# These paths may contain development-only configuration or supporting material.
+CLAUDE.md
+DEV_CREDENTIAL_PROVISIONING.md
+security_rules/
+ci_stubs/
+MANIFEST.md
+STG_RUNBOOK.md
+# CI 生成の advisory 成果物
+reuse_telemetry/

@@ -1,0 +1,5 @@
+[
+  {"id": "PROMO-SUMMER", "message": "夏物アパレル10%OFF", "categories": ["apparel"], "loyalty_tiers": []},
+  {"id": "PROMO-GOLD", "message": "ゴールド会員限定ポイント2倍", "categories": [], "loyalty_tiers": ["gold", "platinum"]},
+  {"id": "PROMO-FOOTWEAR", "message": "シューズ送料無料", "categories": ["footwear"], "loyalty_tiers": []}
+]
